@@ -1,17 +1,17 @@
 <?php
 
-namespace ivi3\ModuleMaker\commands;
+namespace ivi3\ModuleMaker\Commands;
 
 use Illuminate\Console\Command;
 
-class ModuleMakeCommand extends Command
+class SubModuleMakeCommand extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'module:new';
+    protected $signature = 'module:sub-new';
 
     /**
      * The console command description.

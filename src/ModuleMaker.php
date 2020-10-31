@@ -1,6 +1,6 @@
 <?php
 
-namespace ivi3\ModuleMaker\facades;
+namespace ivi3\ModuleMaker;
 
 use Illuminate\Support\Facades\Facade;
 

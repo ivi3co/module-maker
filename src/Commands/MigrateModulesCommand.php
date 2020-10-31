@@ -1,24 +1,24 @@
 <?php
 
-namespace ivi3\ModuleMaker\commands;
+namespace ivi3\ModuleMaker\Commands;
 
 use Illuminate\Console\Command;
 
-class SubModuleMakeCommand extends Command
+class MigrateModulesCommand extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'module:sub-new';
+    protected $signature = 'module:migrate';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Make Sub Module';
+    protected $description = 'Migrate All Modules Migration';
 
     /**
      * Create a new command instance.
